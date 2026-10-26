@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Kannada', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Noto Sans Kannada', sans-serif;
+  }
+}
+
+/* Custom styling for luxury navy and saffron accents */
+.bg-navy-950 {
+  background-color: #061325;
+}
+
+.bg-navy-900 {
+  background-color: #0c1e38;
+}
+
+.bg-navy-800 {
+  background-color: #152b4d;
+}
+
+.text-navy-950 {
+  color: #061325;
+}
+
+.text-navy-900 {
+  color: #0c1e38;
+}
+
+.border-navy-800 {
+  border-color: #1e3a63;
+}
+
+.text-saffron {
+  color: #f97316;
+}
+
+.bg-saffron {
+  background-color: #f97316;
+}
+
+.border-saffron {
+  border-color: #f97316;
+}

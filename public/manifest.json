@@ -1,0 +1,34 @@
+{
+  "id": "/",
+  "name": "Raghavendra Tours & Travels",
+  "short_name": "Raghavendra",
+  "description": "Bangalore Cab Service & Taxi Booking. 24x7 Airport Taxi, Outstation Cabs & Local Travels.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0c1e38",
+  "background_color": "#0c1e38",
+  "lang": "en",
+  "categories": ["travel", "transportation", "business"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

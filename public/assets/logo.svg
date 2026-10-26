@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Sun Gradient -->
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffec3d" />
+      <stop offset="60%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </radialGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Navy Gradient -->
+    <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c4f" />
+      <stop offset="100%" stop-color="#091b34" />
+    </linearGradient>
+
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Base White Background -->
+  <circle cx="250" cy="250" r="244" fill="#ffffff" />
+
+  <!-- Outer Navy Rim -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="#0a2244" stroke-width="16" />
+
+  <!-- Middle Gold Ring -->
+  <circle cx="250" cy="250" r="222" fill="none" stroke="url(#goldGradient)" stroke-width="9" />
+
+  <!-- Thin Inner Accent Line -->
+  <circle cx="250" cy="250" r="214" fill="none" stroke="#0a2244" stroke-width="1.5" />
+
+  <!-- ================= TOP GRAPHIC SECTION ================= -->
+  <g transform="translate(0, 0)">
+    <!-- Golden Rising Sun -->
+    <circle cx="140" cy="142" r="38" fill="url(#sunGradient)" />
+
+    <!-- Mountain Silhouette on Left -->
+    <path d="M 45 180 L 85 145 L 115 165 L 140 138 L 175 165 L 195 180 Z" fill="#0c2340" />
+    <path d="M 85 145 L 98 158 L 92 165 L 85 145 Z" fill="#1c3d69" />
+    <path d="M 140 138 L 150 152 L 144 158 L 140 138 Z" fill="#1c3d69" />
+
+    <!-- Airplane Silhouette on Right -->
+    <g transform="translate(365, 88) rotate(-22) scale(0.9)">
+      <path d="M 0 10 L 18 10 L 32 0 L 36 0 L 26 10 L 42 10 L 48 4 L 52 4 L 49 13 L 52 22 L 48 22 L 42 16 L 26 16 L 36 26 L 32 26 L 18 16 L 0 16 C -3 16 -5 13 0 10 Z" fill="#0a2244" />
+    </g>
+
+    <!-- Palm Trees & Beach Birds on Right -->
+    <g transform="translate(355, 115)">
+      <!-- Palm Trunk 1 -->
+      <path d="M 30 65 Q 26 40 18 20 Q 22 40 26 65 Z" fill="#0a2244" />
+      <!-- Fronds 1 -->
+      <path d="M 18 20 Q 5 10 -5 16 Q 8 20 18 20 Z" fill="#0a2244" />
+      <path d="M 18 20 Q 15 5 25 -2 Q 22 12 18 20 Z" fill="#0a2244" />
+      <path d="M 18 20 Q 30 8 40 12 Q 28 18 18 20 Z" fill="#0a2244" />
+      <path d="M 18 20 Q 32 25 36 34 Q 26 26 18 20 Z" fill="#0a2244" />
+      <path d="M 18 20 Q 8 28 2 34 Q 10 26 18 20 Z" fill="#0a2244" />
+
+      <!-- Palm Trunk 2 -->
+      <path d="M 45 65 Q 48 45 52 30 Q 46 45 42 65 Z" fill="#0a2244" />
+      <!-- Fronds 2 -->
+      <path d="M 52 30 Q 40 22 32 26 Q 44 28 52 30 Z" fill="#0a2244" />
+      <path d="M 52 30 Q 52 16 60 12 Q 58 24 52 30 Z" fill="#0a2244" />
+      <path d="M 52 30 Q 64 22 72 26 Q 60 28 52 30 Z" fill="#0a2244" />
+      <path d="M 52 30 Q 62 36 65 44 Q 57 36 52 30 Z" fill="#0a2244" />
+
+      <!-- Island Mound -->
+      <path d="M 5 65 Q 35 60 68 65 Z" fill="#0a2244" />
+
+      <!-- Birds -->
+      <path d="M 62 -2 Q 67 -8 72 -2 Q 77 -8 82 -2 Q 77 -4 72 0 Q 67 -4 62 -2 Z" fill="#0a2244" />
+      <path d="M 50 10 Q 54 5 58 10 Q 62 5 66 10 Q 62 8 58 12 Q 54 8 50 10 Z" fill="#0a2244" />
+    </g>
+
+    <!-- Monogram R (Deep Navy) -->
+    <path d="M 172 55 L 245 55 C 275 55 292 70 292 95 C 292 115 278 128 258 133 L 295 178 L 265 178 L 232 136 L 202 136 L 202 178 L 172 178 Z M 202 78 L 202 115 L 240 115 C 255 115 264 108 264 96 C 264 84 255 78 240 78 Z" fill="#0d294d" />
+
+    <!-- Winding Blue Highway Sweeping through R and T -->
+    <path d="M 178 178 C 178 140 220 100 270 95 C 235 115 210 145 195 178 Z" fill="#143660" />
+    <path d="M 115 198 C 145 175 190 148 270 145 C 315 143 355 160 415 200 C 330 178 240 180 115 198 Z" fill="#0b2343" />
+    
+    <!-- White Dashed Highway Line -->
+    <path d="M 130 192 C 185 168 250 156 320 162 C 355 166 385 178 405 192" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="7,5" />
+
+    <!-- Dynamic Orange Road Swoop -->
+    <path d="M 215 158 C 215 125 240 88 335 88 C 305 105 285 132 278 165 C 260 148 238 142 215 158 Z" fill="url(#goldGradient)" />
+
+    <!-- Monogram T (Vibrant Golden Orange) -->
+    <path d="M 268 98 L 358 98 L 358 122 L 328 122 L 328 178 L 342 178 L 342 188 L 284 188 L 284 178 L 298 178 L 298 122 L 268 122 Z" fill="#ea8d0e" />
+  </g>
+
+  <!-- ================= MIDDLE BRAND TYPOGRAPHY ================= -->
+  <!-- "Raghavendra" in Dark Blue Bold Serif -->
+  <text x="250" y="252" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="45" fill="#0b2446" letter-spacing="-0.5">
+    Raghavendra
+  </text>
+
+  <!-- "— Tours and Travels —" in Golden Amber -->
+  <g transform="translate(0, 288)">
+    <line x1="48" y1="-8" x2="90" y2="-8" stroke="#ea8d0e" stroke-width="2.5" stroke-linecap="round" />
+    <text x="250" y="0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="800" font-size="28" fill="#ea8d0e" letter-spacing="0.5">
+      Tours and Travels
+    </text>
+    <line x1="410" y1="-8" x2="452" y2="-8" stroke="#ea8d0e" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- "Your Journey Our Priority" in Elegant Cursive Script -->
+  <text x="250" y="325" text-anchor="middle" font-family="'Brush Script MT', 'Segoe Script', 'Great Vibes', cursive, serif" font-style="italic" font-weight="700" font-size="22" fill="#0b2446">
+    Your Journey Our Priority
+  </text>
+
+  <!-- ================= 4 LOWER SERVICE BADGES ================= -->
+  <g transform="translate(0, 340)">
+    
+    <!-- Badge 1: Airport Pickup & Drop -->
+    <g transform="translate(118, 20)">
+      <circle cx="0" cy="0" r="21" fill="#0a2244" />
+      <!-- Car Icon -->
+      <path d="M -9 4 L -7 -4 C -6 -6 -3 -7 0 -7 C 3 -7 6 -6 7 -4 L 9 4 L 9 9 C 9 10 8 11 7 11 L 6 11 C 5 11 4 10 4 9 L 4 8 L -4 8 L -4 9 C -4 10 -5 11 -6 11 L -7 11 C -8 11 -9 10 -9 9 Z M -6 3 L 6 3 L 5 -2 C 4 -3 2 -4 0 -4 C -2 -4 -4 -3 -5 -2 Z M -6 5 C -7 5 -7.5 5.5 -7.5 6 C -7.5 6.5 -7 7 -6 7 C -5 7 -4.5 6.5 -4.5 6 C -4.5 5.5 -5 5 -6 5 Z M 6 5 C 5 5 4.5 5.5 4.5 6 C 4.5 6.5 5 7 6 7 C 7 7 7.5 6.5 7.5 6 C 7.5 5.5 7 5 6 5 Z" fill="#ffffff" />
+      <text x="0" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#0a2244">
+        Airport
+      </text>
+      <text x="0" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="8.5" fill="#0a2244">
+        Pickup &amp; Drop
+      </text>
+    </g>
+
+    <!-- Separator Line 1 -->
+    <line x1="162" y1="12" x2="162" y2="58" stroke="#ea8d0e" stroke-width="1.5" />
+
+    <!-- Badge 2: Outstation Cab Booking -->
+    <g transform="translate(206, 20)">
+      <circle cx="0" cy="0" r="21" fill="#0a2244" />
+      <!-- Map Pin Icon -->
+      <path d="M 0 -9 C -5 -9 -8 -5 -8 0 C -8 5 0 10 0 10 C 0 10 8 5 8 0 C 8 -5 5 -9 0 -9 Z M 0 -1 C -2 -1 -3.5 -2.5 -3.5 -4.5 C -3.5 -6.5 -2 -8 0 -8 C 2 -8 3.5 -6.5 3.5 -4.5 C 3.5 -2.5 2 -1 0 -1 Z" fill="#ffffff" />
+      <text x="0" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#0a2244">
+        Outstation
+      </text>
+      <text x="0" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="8.5" fill="#0a2244">
+        Cab Booking
+      </text>
+    </g>
+
+    <!-- Separator Line 2 -->
+    <line x1="250" y1="12" x2="250" y2="58" stroke="#ea8d0e" stroke-width="1.5" />
+
+    <!-- Badge 3: One-way Taxi Booking -->
+    <g transform="translate(294, 20)">
+      <circle cx="0" cy="0" r="21" fill="#0a2244" />
+      <!-- Arrow Right Icon -->
+      <path d="M -7 -1 L 3 -1 L 0 -5 L 3 -5 L 8 0 L 3 5 L 0 5 L 3 1 L -7 1 Z" fill="#ffffff" />
+      <text x="0" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#0a2244">
+        One-way
+      </text>
+      <text x="0" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="8.5" fill="#0a2244">
+        Taxi Booking
+      </text>
+    </g>
+
+    <!-- Separator Line 3 -->
+    <line x1="338" y1="12" x2="338" y2="58" stroke="#ea8d0e" stroke-width="1.5" />
+
+    <!-- Badge 4: Round Trip Cab Booking -->
+    <g transform="translate(382, 20)">
+      <circle cx="0" cy="0" r="21" fill="#0a2244" />
+      <!-- Round Trip Sync Arrow Icon -->
+      <path d="M -5 -6 C 0 -8 5 -7 7 -4 L 8 -7 L 8 -1 L 2 -1 L 5 -3 C 3 -6 -1 -6 -4 -4 L -5 -6 Z M 5 6 C 0 8 -5 7 -7 4 L -8 7 L -8 1 L -2 1 L -5 3 C -3 6 1 6 4 4 L 5 6 Z" fill="#ffffff" />
+      <text x="0" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#0a2244">
+        Round Trip
+      </text>
+      <text x="0" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="8.5" fill="#0a2244">
+        Cab Booking
+      </text>
+    </g>
+
+  </g>
+
+  <!-- ================= BOTTOM HIGHWAY ROADWAY ================= -->
+  <!-- Golden Upper Ribbon Stripe -->
+  <path d="M 120 445 C 160 422 250 418 380 448 C 300 428 190 428 120 445 Z" fill="url(#goldGradient)" />
+
+  <!-- Lower Navy Roadway Arch -->
+  <path d="M 120 445 C 170 426 250 422 380 448 C 352 468 290 478 250 478 C 210 478 148 468 120 445 Z" fill="#0a2244" />
+
+  <!-- White Dashed Road Markings on Lower Arch -->
+  <path d="M 175 452 C 220 439 280 441 325 452" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="7,5" />
+
+</svg>

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Official Sitemap URL for www.raghavendratravels.in
+Sitemap: https://www.raghavendratravels.in/sitemap.xml
